@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon (2).ico"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Community Group</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" class="logo" alt="" />
+        <nav>
+          <ul class="nav_links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./questions.html">Preguntas Frecuentes</a></li>
+            <li><a href="./count.html">Contador de casos</a></li>
+            <li><a href="./us.html">Sobre nosotros</a></li>
+            <li><a href="./contact.html">Contactanos</a></li>
+          </ul>
+        </nav>
+      </header>
+<article>
+    <section>
+ <div class="container">
+    <h1 class="text-center mt-3">Casos Mundialmente</h1>
+    <br>
+    <form id="myForm" autocomplete="off">
+    <input type="text" id="country" class="country"   placeholder="Nombre del Pais" required>
+    <br>
+    <br>
+    <input type="submit" class="button" value="Obtener datos">
+    <input type="button"class="cleaner" value="Limpiar tabla" onclick="clean()">
+    </form>
+    <br>
+    <table class="table text-center table-hover">
+    <thead>
+        <tr>
+          <th>Total de casos</th>
+          <th>Casos Activos</th>
+          <th>Total de muertes</th> 
+          <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="data">
+            <th id="confirmed"></th>
+            <th id="newcases"></th>
+            <th id="deaths"></th>
+            <th id="newdeaths"></th>
+        </tr>
+    </tbody>
+      </table>
+ </div>
+ <div class="content">
+    <h2>Nota:</h2>
+    <ul>
+        <li>Los paises escritos en el buscador deben ser escritos en ingles, esto se debe a que se esta sacando información desde una api</li>
+        <li>Si no le aparece el resultado, revise si el pais esta corractamente escrito</li>
+        <li>Solo se debe buscar paises, para verificar sus casos</li>
+        <li>Debe limpiar la tabla antes de buscar otro caso</li>
+        <li>Los casos mostrados son los ultimos reportados</li>
+        <li>No importa si esta escrito en mayuscula o miniscula el pais</li>
+    </ul>
+ </div>
+    </section>
+</article>
+<footer class="footer">
+    <div class="footer-container">
+      <h3>Community Group</h3>
+      <p>Nadie es patria. Todos lo somos.</p>
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy;2021</p>
+    </div>
+  </footer>
+  <script
+    src="https://kit.fontawesome.com/78fbe68e35.js"
+    crossorigin="anonymous"
+  ></script>   
+<script src="../js/index.js"></script>
+</body>
+</html>
