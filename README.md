@@ -3,7 +3,8 @@ Este proyecto fue hecho con HTML,CSS,BOOTSRAP y JS
 
 Trata de resolver un problema muy comun en mi comunidad el cual es la desinformacion con respecto al covid 19.
 
-Nota: En la parte de contador esta todos lo casos y los casos activos , que son los casos recuperados
+Nota: No es responsive para verla sin problemas desde el celular debe activar en configuracion modo escritorio.
+
 Pagina Inicio
 ![Captura(Inicio)](https://user-images.githubusercontent.com/78440424/129239847-daf7b14d-9d9e-40e5-b3d3-bf6ffa09b365.PNG)
 Pagina Preguntas Frecuentes
@@ -17,7 +18,7 @@ Pagina Contactanos
 
 
 
-Hosting:PROXIMAMENTE
+Hosting:https://communitygroup.netlify.app/
 
 Hecho por: Sebastian Vargas 
 Matricula: 2019-7820
